@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form>
+            <h2>Examination Form</h2>
+            <fieldset> 
+                <legend>Personal Information </legend>
+                    First name: <input class="fname" type="text" placeholder="Enter your first name..." name="first name"/><br /><br />
+                    Last name: <input   class="lname"type="text" placeholder="Enter your last name..." name="second name" /><br /><br />
+                    Email: <input  class="ename" type="text" placeholder=" Your Email....." name="email" /><br /><br />
+                    Password: <input   class="pname"type="password" required maxlength="8"/><br /><br />
+                    Father name: <input class="faname" type="text" name="parents name"><br><br>
+                    Address: <input list="city" class="addname">
+                    <datalist id="city">
+                        <option value="delhi">
+                        <option value="mumbai">
+                        <option value="lucknow">
+                        <option value="chandigardh"><option>
+
+                    </datalist> <br><br>
+
+                    Gender: <input type="radio" value="m" name="Gender" />Male
+                    <input type="radio" value="f" name="Gender"/>Female <br /><br />
+                    DOB: <input type="date">
+            </fieldset>
+        <fieldset>
+            <legend>Educational Qualification</legend>
+            Degree: <input type="checkbox" value="10" name="Degree"/>10<select><option>CBSE</option><option>CISCE</option><option>NIOS</option></select>
+            <input type="checkbox" value="12" name="Degree" />12  <select><option>CENTRAL BOARD OF SECONDARY EDUCATION, NEW DELHI</option> <option>BOARD OF INTERMEDIATE EDUCATION, ANDHRA PRADESH</option> <option>BOARD OF SECONDARY EDUCATION, ASSAM</option> <option>BIHAR SCHOOL EXAMINATION BOARD, BIHAR</option> <option>PUNJAB SCHOOL EDUCATION BOARD, PUNJAB</option></select>
+            <input type="checkbox" value="diploma" name="Degree" />Diploma <select><option>Punjab Technical university</option> <option>Indian Institute of Technology Bombay</option> <option>Amet University Chennai,</option> <option></option></select>
+            <input type="checkbox" value="Graduation" name="Degree" />Graduation <select><option>Punjab Technical university</option> <option>Indian Institute of Science</option></select>
+            </fieldset>
+            <fieldset>
+            <legend>Perfered Location</legend>
+            <input list="city">
+            <datalist id="city">
+            <option value="delhi">
+            <option value="mumbai">
+            <option value="punjab">
+        </datalist>
+    </fieldset>
+    <fieldset>
+        <legend>Any other</legend>
+        <textarea name="any other" cols="30" rows="10"></textarea>
+    </fieldset> <br><br>
+    <div class="buttons">
+        <input id="b1" type="submit" value="SIGN UP">
+    <input id="b2" type="reset" >
+    <button id="b3" value="cancel">Cancel</button>
+    </div>
+    
+    </form>
+    </div>
+
+    
+</body>
+</html>

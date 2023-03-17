@@ -1,0 +1,39 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    }
+
+.main{
+    background-color:aquamarine;
+
+}
+.buttons{
+    text-align: center;
+}
+#b1{
+    border-radius: 20px;
+}
+#b2{
+    border-radius: 20px;
+}
+#b3{
+    border-radius: 20px;
+}
+.fname{
+    margin-left: 18px;
+}
+.lname{
+    margin-left: 18px;
+}
+.ename{
+    margin-left: 44px;
+}
+.pname{
+    margin-left: 20px;
+}
+.faname{
+    margin-left: 2px;
+}
+.addname{
+    margin-left: 30px;
+}
